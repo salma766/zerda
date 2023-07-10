@@ -1,4 +1,4 @@
-# Cryptospace
+# E Learning Platform Zerda
 
 <p align="center">
   <img src="screenshot.png" alt="screenshot" title="Screenshot">
