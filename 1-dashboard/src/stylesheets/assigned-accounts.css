@@ -1,0 +1,34 @@
+.nodata{
+    text-align: center;
+}
+
+.nodata img {
+    width: 35px;
+    height: 40px;
+}
+
+.custom-btn{
+    width: 39px;
+    height: 39px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.m-left-5{
+    margin-left: 5px;
+}
+
+.filter-group{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.status-filter{
+    width: 200px; 
+    margin-right: 5px;
+}
+
+.c-pointer{
+    cursor: pointer;
+}

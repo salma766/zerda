@@ -1,0 +1,29 @@
+.pagination-controls {
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-component {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.pagination-component-dark {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    background: #2b2c40;
+}
+
+.pagination-info {
+    text-align: center;
+    padding: 10px 10px 0px 0px;
+}

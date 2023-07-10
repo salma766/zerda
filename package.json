@@ -1,0 +1,30 @@
+{
+  "name": "zerda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server.js",
+    "frontend": "npm start --prefix 2-frontend",
+    "dashboard": "npm start --prefix 1-dashboard",
+    "mern": "concurrently \"npm run server\" \"npm run dashboard\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "concurrently": "8.0.1",
+    "nodemon": "^2.0.20"
+  }
+}
